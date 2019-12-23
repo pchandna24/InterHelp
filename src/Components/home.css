@@ -87,8 +87,9 @@
   }
   .main {
     margin: auto;
-    padding-bottom: 40%;
-    padding-top: 12%;
+    height: 90vh;
+
+    padding-bottom: 7.5vh;
     justify-content: space-between;
   }
   .set {
@@ -96,17 +97,19 @@
     margin-left: 90px;
   }
   .text {
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
     text-align: center;
-    width: 90vw;
+    width: 95vw;
     margin-left: -4px;
+    overflow: hidden;
+    padding-left: -100px;
   }
   .svg {
     display: none;
   }
   .scroller {
-    margin-top: 615px;
+    margin-top: 89vh;
     margin-left: 30px;
   }
 }

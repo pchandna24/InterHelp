@@ -8,6 +8,7 @@
 }
 .main {
   padding-top: 5%;
+  padding-right: 5%;
 
   border-radius: 15px;
 
@@ -23,8 +24,13 @@
 .text {
   color: #36454f;
   font-size: 15px;
-  margin-left: 30px;
+  width: 80vw;
+  text-align: center;
   font-family: sans-serif;
+}
+.adjust {
+  width: 93vw;
+  align-items: center;
 }
 .image {
   background-image: url("../assets/picture.jpg");
@@ -45,7 +51,7 @@
 .set {
   color: #36454f;
   font-size: 15px;
-  padding-left: 45px;
+  padding-left: 10px;
 }
 .svg {
   background-image: url("../assets/undraw.png");
@@ -97,13 +103,12 @@
     margin-left: 90px;
   }
   .text {
-    font-size: 15px;
+    font-size: 20px;
     font-family: sans-serif;
     text-align: center;
     width: 95vw;
     margin-left: -4px;
     overflow: hidden;
-    padding-left: -100px;
   }
   .svg {
     display: none;

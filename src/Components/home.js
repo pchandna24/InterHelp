@@ -9,8 +9,10 @@ export default class Home extends Component {
         <div className="row">
           <h1 className="heading">InterHelp</h1>
           <div className="col">
-            <div className="image"></div>
-            <p className="set"> Tanuja Nailwal</p>
+            <div class="adjust">
+              <div className="image"></div>
+              <p className="set"> Tanuja Nailwal</p>
+            </div>
           </div>
           <p className="text">
             An Initiative to guide you through how companies hire! We are here
